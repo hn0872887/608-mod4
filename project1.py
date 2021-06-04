@@ -1,33 +1,33 @@
-c = [-45, 6, 0, 72, 1543]
-print(c)
-print(c[0])
-print(c[4])
-print(len(c))
-print(c[-1])
-#print(c[6])
-a = (c[0] + c[1] + c[2])
-print(f'adding first three items in list c: {a}')
-empty_list = []
-empty_list += range(1, 6)
-print(empty_list)
-concatenated_list = c + empty_list
-print(concatenated_list)
-for item in range(len(concatenated_list)):
-    print(f'{item} : {concatenated_list[item]}')
-a = [1, 2, 3]
-b = [1, 2, 3, 3]
-c = [2, 1, 3]
-print(a == b)
-print(a == c)
-print(b == c)
-def cube_list(values):
-    for i in range(len(values)):
-        values[i] **=3
+# c = [-45, 6, 0, 72, 1543]
+# print(c)
+# print(f"value at index 0: {c[0]}")
+# print(f"value at index 4: {c[4]}")
+# print(f"len of list: {len(c)}")
+# print(f'value of last element using index -1: {c[-1]}')
+# #print(c[6])
+# a = (c[0] + c[1] + c[2])
+# print(f'adding first three items in list c: {a}')
+# empty_list = []
+# empty_list += range(1, 6)
+# print(f"empty list: {empty_list}")
+# concatenated_list = c + empty_list
+# print(f"concatenatedconcatenated_list: {concatenated_list}")
+# for item in range(len(concatenated_list)):
+#     print(f'{item} : {concatenated_list[item]}')
+# a = [1, 2, 3]
+# b = [1, 2, 3, 3]
+# c = [2, 1, 3]
+# print(a == b)
+# print(a == c)
+# print(b == c)
+# def cube_list(values):
+#     for i in range(len(values)):
+#         values[i] **=3
 
 
-value_question14 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-cube_list(value_question14)
-print(f"list of numbers after cubing every item in a list: {value_question14}")
+# value_question14 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# cube_list(value_question14)
+# print(f"list of numbers after cubing every item in a list: {value_question14}")
 
 student_tuple = ()
 print(f"making empty tuple: {student_tuple}")
